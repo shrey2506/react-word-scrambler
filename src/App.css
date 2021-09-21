@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+html *
+{
+   
+   font-family:  url(https://fonts.googleapis.com/css2?family=Open+Sans) !important;
+   background-color: gray;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+#container{
+  display: none;
+  background-color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading{
+  background-color: #FFFFFF;
+  font-size: 3rem;
+  color: blue;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card{
+  margin: 20px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+}
+.sub_heading{
+  background-color: #FFFFFF;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.center{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.grid{
+  background-color: #FFFFFF;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.tile{
+  background-color: white;
+  margin: 5px;
+  height: 30px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 3px 3px #888888;
+  font-size: 1rem;
+} 
+
+.next, .start{
+  background-color: #4caf50 ;
+ 
+  color: #FFFFFF;
+  border: none;
 }
